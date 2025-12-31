@@ -1,26 +1,61 @@
 # Nitrax Mathematical Keyboard
 
-**Nitrax Mathematical Keyboard** is a lightweight Windows utility designed to work with the
-*Nitrax Mathematical Keyboard* hardware.
+**Nitrax Mathematical Keyboard** is a lightweight Windows utility designed **specifically to work with the Nitrax Mathematical Keyboard hardware**.
 
-It enables fast, reliable, and universal input of mathematical symbols using global keyboard shortcuts,
-across all applications.
+It enables fast, reliable, and universal input of mathematical symbols using global keyboard shortcuts, powered by a dedicated physical keyboard created by Nitrax.
+
+👉 **This software is intended to be used with the Nitrax Mathematical Keyboard.**
+
+🛒 **Available for purchase on Amazon:**  
+https://www.amazon.com/dp/B0FRNHKH71
+
+---
+
+## The Nitrax Mathematical Keyboard (hardware)
+
+The Nitrax Mathematical Keyboard is a compact physical keyboard designed for fast mathematical input.
+
+### Connection modes
+
+The keyboard supports **two connection modes**:
+
+#### 🔹 2.4 GHz wireless (USB dongle)
+- Plug the USB dongle into your computer
+- The keyboard connects automatically
+- Lowest latency
+- Recommended for desktop use
+
+#### 🔹 Bluetooth
+- Allows wireless use without a USB dongle
+- Useful for laptops and mobile setups
+- Slightly higher latency than 2.4 GHz (normal for Bluetooth)
+
+Both modes behave like a **standard keyboard at the operating system level**.  
+No driver installation is required for the keyboard itself.
+
+---
+
+## What this software does
+
+The Nitrax Mathematical Keyboard software runs quietly in the background on Windows and translates key combinations from the physical keyboard into mathematical symbols.
+
+It works globally across applications and inserts Unicode symbols directly, without using the clipboard.
 
 ---
 
 ## Features
 
-- Global Math Mode (Ctrl + Alt / Ctrl + Alt + Shift)
-- Layout-independent (scancode-based, works on AZERTY and QWERTY)
+- Designed **exclusively for the Nitrax Mathematical Keyboard (QWERTY-based layout)**
+- Global Math Mode using dedicated key combinations
 - Direct Unicode insertion (no clipboard usage)
 - Works across applications:
   - Microsoft Word
   - Google Docs
   - Notepad / Notepad++
-  - And most Windows applications
+  - Most Windows applications
 - Tray-based interface with Math Mode ON / OFF
-- Optional start with Windows
-- Lightweight and runs silently in the background
+- Optional automatic start with Windows
+- Lightweight and silent background operation
 
 ---
 
@@ -30,7 +65,7 @@ across all applications.
 
 https://github.com/NitraxMathematicalKeyboard/download-keyboard-layout/releases/latest
 
-Download the file:NitraxMathKeyboard.exe
+Download the file: NitraxMathKeyboard.exe
 
 
 ---
@@ -41,18 +76,22 @@ Download the file:NitraxMathKeyboard.exe
 2. Double-click the file to run it.
 3. The application will appear in the system tray (near the clock).
 
-No installation, no administrator privileges required.
+No installation wizard.  
+No administrator privileges required.
 
 ---
 
 ## How to use
 
-Once running, the application lives in the system tray.
+Once launched, the application lives in the **system tray** (near the clock).
 
-You can:
-- Toggle **Math Mode ON / OFF** from the tray menu
-- Enable or disable **Start with Windows**
-- Quit the application from the tray menu
+### Tray controls
+- **Double-click the tray icon** to toggle Math Mode ON / OFF
+- Or use the tray menu to:
+  - Enable or disable Math Mode
+  - Enable or disable start with Windows
+  - Open the help / quick guide
+  - Quit the application
 
 ### Keyboard shortcuts
 - **Ctrl + Alt + Shift + F12** → Toggle Math Mode
@@ -63,15 +102,58 @@ https://mathematicalkeyboard.com/how-to-use-the-nitrax-math-keyboard/
 
 ---
 
-## Windows SmartScreen notice
+## Keyboard layers and symbol input
 
-On first launch, Windows may display a security warning because the application is not yet code-signed.
+The Nitrax Mathematical Keyboard uses a **layered design** to access mathematical symbols efficiently.
 
-To proceed:
+### 🔵 Blue symbols
+- Press **Ctrl + Alt + key**
+- Inserts the **blue symbol** printed on the key
+
+### ⚪ Gray symbols
+- Press **Ctrl + Alt + Shift + key**
+- Inserts the **gray symbol** printed on the key
+
+You can keep **Ctrl + Alt** pressed and type multiple symbols in sequence for fast input.
+
+This design allows quick access to a large number of mathematical symbols without switching layouts or opening symbol menus.
+
+---
+
+## Start with Windows — what does it mean?
+
+When **Start with Windows** is enabled, the software automatically launches in the background when you log into Windows.
+
+- Math Mode is immediately available
+- No user interaction required
+- The application remains silent and accessible from the tray
+
+This option can be enabled or disabled at any time from the tray menu.
+
+---
+
+## Windows security notice (SmartScreen)
+
+On first launch, Windows may display a blue security warning screen.
+
+This happens because:
+- The application is a small independent utility
+- It is not digitally code-signed yet
+- It is built using **AutoHotkey**, an open-source Windows automation framework
+
+### About AutoHotkey
+AutoHotkey (AHK) is a widely used open-source scripting language for Windows, trusted by millions of users worldwide for keyboard automation and productivity tools.
+
+The Nitrax Mathematical Keyboard software:
+- Uses AutoHotkey for reliable low-level keyboard handling
+- Contains no telemetry and no network access
+- Runs entirely locally on your machine
+
+### How to proceed
 1. Click **More info**
 2. Click **Run anyway**
 
-This is expected behavior for new independent software.
+This is expected behavior and completely safe.
 
 ---
 
@@ -90,4 +172,3 @@ Stable release.
 ---
 
 © Nitrax Mathematical Keyboard
-
