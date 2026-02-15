@@ -6,6 +6,9 @@ It enables fast, reliable, and universal input of mathematical symbols using glo
 
 👉 **This software is intended to be used with the Nitrax Mathematical Keyboard.**
 
+ℹ️ **More details on our website:**  
+https://mathematicalkeyboard.com
+
 🛒 **Available for purchase on Amazon:**  
 https://www.amazon.com/dp/B0FRNHKH71
 
