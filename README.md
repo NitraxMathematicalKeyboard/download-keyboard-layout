@@ -159,7 +159,7 @@ AutoHotkey (AHK) is a widely used open-source scripting language for Windows, tr
 
 The Nitrax Mathematical Keyboard software:
 - Uses AutoHotkey for reliable low-level keyboard handling
-- Contains no telemetry and no network access
+- Contains no telemetry and makes no background network requests
 - Runs entirely locally on your machine
 
 ### How to proceed
