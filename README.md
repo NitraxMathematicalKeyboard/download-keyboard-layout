@@ -1,16 +1,22 @@
-# Nitrax Mathematical Keyboard
+# Nitrax Mathematical Keyboard — Windows Companion App
 
-**Nitrax Mathematical Keyboard** is a lightweight Windows utility designed **specifically to work with the Nitrax Mathematical Keyboard hardware**.
+This repository contains the official open-source Windows companion app for the Nitrax Mathematical Keyboard.
 
-It enables fast, reliable, and universal input of mathematical symbols using global keyboard shortcuts, powered by a dedicated physical keyboard created by Nitrax.
+Built with AutoHotkey v2, it enables fast input of mathematical, Greek, and scientific Unicode symbols across Windows applications.
 
-👉 **This software is intended to be used with the Nitrax Mathematical Keyboard.**
+- Blue symbols: `Ctrl + Alt + key`
+- Gray symbols: `Ctrl + Alt + Shift + key`
+- Runs locally from the Windows system tray
+- Inserts Unicode characters directly without using the clipboard
+- No telemetry or network access
 
-ℹ️ **More details on our website:**  
-https://mathematicalkeyboard.com
+## Official links
 
-🛒 **Available for purchase on Amazon:**  
-https://www.amazon.com/dp/B0FRNHKH71
+- [Product website](https://mathematicalkeyboard.com/)
+- [Interactive demo](https://mathematicalkeyboard.com/try-it-right-now-for-free/)
+- [Quick Start](https://mathematicalkeyboard.com/how-to-use-the-nitrax-math-keyboard/)
+- [Full documentation](https://mathematicalkeyboard.com/full-documentation/)
+- [Purchase on Amazon](https://www.amazon.com/dp/B0FRNHKH71)
 
 ---
 
@@ -66,13 +72,13 @@ It works globally across applications and inserts Unicode symbols directly, with
 
 ➡️ **Download the latest version here:**
 
-https://github.com/NitraxMathematicalKeyboard/download-keyboard-layout/releases/latest
+https://github.com/NitraxMathematicalKeyboard/nitrax-math-keyboard-windows/releases/latest
 
 Download the file: `NitraxMathKeyboard.exe`
 
 Direct executable link:
 
-https://github.com/NitraxMathematicalKeyboard/download-keyboard-layout/releases/latest/download/NitraxMathKeyboard.exe
+https://github.com/NitraxMathematicalKeyboard/nitrax-math-keyboard-windows/releases/latest/download/NitraxMathKeyboard.exe
 
 
 ---
@@ -176,6 +182,14 @@ This is expected behavior and completely safe.
 Current version: **v1.1.2**
 
 Stable release.
+
+---
+
+## License
+
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
+
+Distributed versions derived from this project must remain open source under the same license.
 
 ---
 
