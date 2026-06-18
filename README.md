@@ -1,16 +1,22 @@
-# Nitrax Mathematical Keyboard
+# Nitrax Mathematical Keyboard — Windows Companion App
 
-**Nitrax Mathematical Keyboard** is a lightweight Windows utility designed **specifically to work with the Nitrax Mathematical Keyboard hardware**.
+This repository contains the official open-source Windows companion app for the Nitrax Mathematical Keyboard.
 
-It enables fast, reliable, and universal input of mathematical symbols using global keyboard shortcuts, powered by a dedicated physical keyboard created by Nitrax.
+Built with AutoHotkey v2, it enables fast input of mathematical, Greek, and scientific Unicode symbols across Windows applications.
 
-👉 **This software is intended to be used with the Nitrax Mathematical Keyboard.**
+- Blue symbols: `Ctrl + Alt + key`
+- Gray symbols: `Ctrl + Alt + Shift + key`
+- Runs locally from the Windows system tray
+- Inserts Unicode characters directly without using the clipboard
+- No telemetry or background network requests
 
-ℹ️ **More details on our website:**  
-https://mathematicalkeyboard.com
+## Official links
 
-🛒 **Available for purchase on Amazon:**  
-https://www.amazon.com/dp/B0FRNHKH71
+- [Product website](https://mathematicalkeyboard.com/)
+- [Interactive demo](https://mathematicalkeyboard.com/try-it-right-now-for-free/)
+- [Quick Start](https://mathematicalkeyboard.com/how-to-use-the-nitrax-math-keyboard/)
+- [Full documentation](https://mathematicalkeyboard.com/full-documentation/)
+- [Purchase on Amazon](https://www.amazon.com/dp/B0FRNHKH71)
 
 ---
 
@@ -68,7 +74,11 @@ It works globally across applications and inserts Unicode symbols directly, with
 
 https://github.com/NitraxMathematicalKeyboard/download-keyboard-layout/releases/latest
 
-Download the file: NitraxMathKeyboard.exe
+Download the file: `NitraxMathKeyboard.exe`
+
+Direct executable link:
+
+https://github.com/NitraxMathematicalKeyboard/download-keyboard-layout/releases/latest/download/NitraxMathKeyboard.exe
 
 
 ---
@@ -149,14 +159,14 @@ AutoHotkey (AHK) is a widely used open-source scripting language for Windows, tr
 
 The Nitrax Mathematical Keyboard software:
 - Uses AutoHotkey for reliable low-level keyboard handling
-- Contains no telemetry and no network access
+- Contains no telemetry and makes no background network requests
 - Runs entirely locally on your machine
 
 ### How to proceed
 1. Click **More info**
 2. Click **Run anyway**
 
-This is expected behavior and completely safe.
+This warning is expected when the app is downloaded from the official Nitrax GitHub release page, as the executable is not yet code-signed.
 
 ---
 
@@ -169,8 +179,17 @@ This is expected behavior and completely safe.
 
 ## Status
 
-Current version: **v1.1.0**  
+Current version: **v1.1.2**
+
 Stable release.
+
+---
+
+## License
+
+This project is licensed under the [GNU General Public License v2.0](LICENSE).
+
+Distributed versions derived from this project must remain open source under the same license.
 
 ---
 
