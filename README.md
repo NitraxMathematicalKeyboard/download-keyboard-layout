@@ -8,7 +8,7 @@ Built with AutoHotkey v2, it enables fast input of mathematical, Greek, and scie
 - Gray symbols: `Ctrl + Alt + Shift + key`
 - Runs locally from the Windows system tray
 - Inserts Unicode characters directly without using the clipboard
-- No telemetry or network access
+- No telemetry or background network requests
 
 ## Official links
 
@@ -166,7 +166,7 @@ The Nitrax Mathematical Keyboard software:
 1. Click **More info**
 2. Click **Run anyway**
 
-This is expected behavior and completely safe.
+This warning is expected when the app is downloaded from the official Nitrax GitHub release page, as the executable is not yet code-signed.
 
 ---
 
@@ -187,7 +187,7 @@ Stable release.
 
 ## License
 
-This project is licensed under the [GNU General Public License v3.0](LICENSE).
+This project is licensed under the [GNU General Public License v2.0](LICENSE).
 
 Distributed versions derived from this project must remain open source under the same license.
 
