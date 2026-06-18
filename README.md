@@ -72,13 +72,13 @@ It works globally across applications and inserts Unicode symbols directly, with
 
 ➡️ **Download the latest version here:**
 
-https://github.com/NitraxMathematicalKeyboard/nitrax-math-keyboard-windows/releases/latest
+https://github.com/NitraxMathematicalKeyboard/download-keyboard-layout/releases/latest
 
 Download the file: `NitraxMathKeyboard.exe`
 
 Direct executable link:
 
-https://github.com/NitraxMathematicalKeyboard/nitrax-math-keyboard-windows/releases/latest/download/NitraxMathKeyboard.exe
+https://github.com/NitraxMathematicalKeyboard/download-keyboard-layout/releases/latest/download/NitraxMathKeyboard.exe
 
 
 ---
